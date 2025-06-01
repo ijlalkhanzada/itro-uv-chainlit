@@ -1,0 +1,20 @@
+[project]
+name = "itro-uv-chainlit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ijlal Khanzada", email = "ijlalkhanzada@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.16",
+]
+
+[project.scripts]
+itro-uv-chainlit = "itro_uv_chainlit:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
